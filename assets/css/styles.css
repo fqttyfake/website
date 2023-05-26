@@ -1,0 +1,42 @@
+@font-face {
+    font-family: monserrat;
+    src: url(../font/monserrat.ttf);
+}
+
+html {
+    scrollbar-width: none;
+}
+
+body {
+    font-family: "monserrat";
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+::selection {
+    color: white;
+    background: rgb(88, 184, 88);
+}
+
+.card {
+    box-shadow: 0 0.3rem 0.6rem 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    width: 35%;
+    border-radius: 1rem;
+}
+
+.card:hover {
+    box-shadow: 0 0.6rem 1.2rem 0 rgba(0,0,0,0.2);
+    transform: scale(1.01);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.card-img {
+    border-radius: 1rem 1rem 0 0;
+}
