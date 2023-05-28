@@ -5,6 +5,7 @@
 
 html {
     scrollbar-width: none;
+    cursor: default;
 }
 
 body {
